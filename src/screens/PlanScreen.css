@@ -1,0 +1,43 @@
+.planScreen{
+    opacity: 0.8;
+}
+
+.one{
+    display: flex;
+    justify-content: row;
+}
+
+.one>button{
+    margin-left: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.two{
+    display: flex;
+    justify-content: row;
+}
+
+.two>button{
+    margin-left: 380px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.planScreen:hover{
+    opacity: 1;
+}
